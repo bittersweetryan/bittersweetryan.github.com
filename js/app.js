@@ -39,7 +39,7 @@ window.app = (  function( window, $, snack ){
 	return {
 		loadData : function( ) {
 			var opts = {
-				method : 'post',
+				method : 'get',
 				url : 'resume.json'
 			};
 
