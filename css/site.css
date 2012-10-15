@@ -4,11 +4,14 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Source Sans Pro', sans-serif; }
-  body section.first {
+  body section.first, body div.first {
     margin-top: 55px; }
-  body section h2 {
+  body section h2, body div h2 {
     line-height: .4em;
     font-size: 1.1em; }
+
+a {
+  color: #000; }
 
 ul {
   list-style-type: none;
@@ -35,3 +38,10 @@ nav {
     border-right: 1px dashed #999999; }
     nav li.last {
       border-right: 0 none; }
+
+span.right {
+  position: absolute;
+  right: 2em; }
+
+.name {
+  font-size: 2em; }

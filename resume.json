@@ -1,9 +1,10 @@
 {
 	"name" : "Ryan S. Anklam",
 	"title" : "Web Application Engineer",
-	"objective" : "To make the highest quality web applications that exceed customers expectations using technoclogies that will continually push my abilities and force me to learn new technoclogies.",
+	"objective" : "Make high-quality web applications that challenge me to learn new technologies.",
+	"aboutme" : "I am passionate about writing code, even if I wasn't getting paid to code I'd still be writing code in my freetime. I love to learn new things. I thouroughy enjoy writing and contribuiting to open source software. I strongly believe in TDD and continous integration. I'm also a 7th grade basketball coach and avid mountain biker.",
 	"skills" : [
-		"JavaScript (ECMAScript versions 1.5,1.6, ES.next",
+		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
 		"HTML5",
 		"JSON",
 		"RESTful web services",

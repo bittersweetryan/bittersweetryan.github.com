@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head>		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 		<link rel="stylesheet" href="css/site.css">
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-		<title>Resume of Ryan S. Anklam</title>
+		<title>Résumé of Ryan S. Anklam</title>
 		<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 		<![endif]-->
@@ -11,19 +13,22 @@
 	<body>
 		<nav>
 			<ul>
-				<li>GitHub</li>
-				<li>Blog</li>
-				<li>LinkedIn</li>
-				<li>Twitter</li>
-				<li class="last">Google+</li>
+				<li><a href="https://www.github.com/bittersweetryan" target="_blank">GitHub</a></li>
+				<li><a href="http://blog.bittersweetryan.com" target="_blank">Blog</a></li>
+				<li><a href="http://www.linkedin.com/pub/ryan-anklam/3/ba9/765" target="_blank">LinkedIn</a></li>
+				<li><a href="http://www.twitter.com/bittersweetryan" target="_blank">Twitter</a></li>
+				<li class="last"><a href="https://plus.google.com/u/0/102276762899040799950/posts" target="_blank">Google+</a></li>
 			</ul>
 		</nav>
 
 		<div id="content">
-			
-			<section id="name" class="first">
-				<h1 data-content="name">Ryan Anklam</h1>
-				<h2 data-content="title">Web Application Engineer</h2>
+			<div class="first">
+				<span class="right"><a href="resume.json">View as JSON</a></span>
+			</div>
+
+			<section>
+				<h1 data-content="name" class="name"></h1>
+				<h2 data-content="title"></h2>
 				<section id="contact">
 					ryan.anklam@gmail.com
 				</section>
@@ -31,76 +36,25 @@
 			
 			<section id="objective">
 				<h1>Objective</h1>
-				<p data-content="objective">Make high-quality web applications that challenge me to learn new technologies.</p>
+				<p data-content="objective"></p>
 			</section>
 
 			<section id="aboutme">
 				<h1>About Me</h1>
-				<p data-content="objective">I am passionate about writing code, even if I wasn't getting paid to code I'd still be writing code in my freetime. I love to learn new things. I thouroughy enjoy writing and contribuiting to open source software. I strongly believe in TDD and continous integration. I'm also a 7th grade basketball coach and avid mountain biker.</p>
+				<p data-content="aboutme"></p>
 			</section>
 
 			<section id="skills">
 				<h1>Skills / Languages</h1>
-				<p data-content="skills">
-					<ul>
-						<li>
-							JavaScript (ECMAScript 1.5, 1.6, ES.next)
-						</li>
-						<li>
-							HTML5 &amp; CSS3
-						</li>
-						<li>
-							TDD
-						</li>
-						<li>
-							RESTful Web Services
-						</li>
-						<li>
-							ColdFusion
-						</li>
-						<li>
-							Groovy
-						</li>
-						<li>
-							PHP
-						</li>
-						<li>
-							Java
-						</li>
-						<li>
-							T-SQL Databases (MSSQL, MySQL, SQLite)
-						</li>
-					</ul>
-				</p>
+				<ul data-content="skills">
+				</ul>
 			</section>
 
 			<section id="frameworks">
 				<h1>Frameworks / Libraries / Data Formats</h1>
-				<p data-content="skills">
-					<ul>
-						<li>
-							jQuery 1.4+
-						</li>
-						<li>
-							Backbone.js
-						</li>
-						<li>
-							AMD 
-						</li>
-						<li>
-							JSON
-						</li>
-						<li>
-							FW/1
-						</li>
-						<li>
-							Grails
-						</li>
-						<li>
-							Hibernate
-						</li>
-					</ul>
-				</p>
+				<ul data-content="skills">
+				
+				</ul>
 			</section>
 
 			<section id="projects">
@@ -170,14 +124,21 @@
 			</section>
 
 		</div>
-	<script type="text/javascript" src="js\sizzle.js"></script>
-	<script type="text/javascript" src="js\snack.min.js"></script>
-	<script type="text/javascript" src="js\app.js"></script>
-	<script type="text/javascript">
-		snack.ready( function( ) {
-			window.app.loadData( );
-		} )
-	</script>
+
+		<script type="text/template" id="skills-template">
+			<li>
+				${skills}
+			</li>
+		</script>
+
+		<script type="text/javascript" src="js\sizzle.js"></script>
+		<script type="text/javascript" src="js\snack.min.js"></script>
+		<script type="text/javascript" src="js\app.js"></script>
+		<script type="text/javascript">
+			snack.ready( function( ) {
+				window.app.loadData( );
+			} )
+		</script>
 	</body>
 </html>
 

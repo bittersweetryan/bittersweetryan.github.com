@@ -1,18 +1,54 @@
-window.app = (  function( window, s, snack ){
+window.app = (  function( window, $, snack ){
+	"use strict";
 
-	return { 
+	var parseData = function( data ) {
+
+		var json     = snack.parseJSON( data ),
+			key      = null,
+			ele      = null,
+			val      = null;
+
+		for( key in json ){
+
+			val = json[ key ];
+			ele = $( '[data-content=' + key + ']' )[ 0 ];
+
+			//standard keys just populate the section
+			if( !snack.isArray( val ) ){
+
+				if( ele ) ele.innerHTML = val;
+			}
+			else{
+				var frag = '';
+
+				snack.each( val , function( item, index ){
+					var template = $( '#' + key + '-template' )[ 0 ];
+
+					//template found, key is a string
+					if( template && typeof item === 'string' ){
+						frag = frag + template.innerHTML.replace('${' + key + '}', item );
+					}
+				});
+
+				ele.innerHTML = frag;
+			}
+
+		}
+	};
+
+	return {
 		loadData : function( ) {
 			var opts = {
 				method : 'post',
 				url : 'resume.json'
 			};
 
-			var data = snack.request( opts, function( err, response ) {
+			snack.request( opts, function( err, response ) {
 				if( err ){
 					return;
 				}
 				else{
-					console.log( response );
+					parseData( response );
 				}
 			} );
 		}
