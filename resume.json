@@ -1,0 +1,48 @@
+{
+	"name" : "Ryan S. Anklam",
+	"title" : "Web Application Engineer",
+	"objective" : "To make the highest quality web applications that exceed customers expectations using technoclogies that will continually push my abilities and force me to learn new technoclogies.",
+	"skills" : [
+		"JavaScript (ECMAScript versions 1.5,1.6, ES.next",
+		"HTML5",
+		"JSON",
+		"RESTful web services",
+		"ColdFusion",
+		"Groovy/Grails",
+		"PHP",
+		"Java",
+		"TDD"
+	],
+	"experience" : {
+		"IDL Solutions" : {
+			"title" : "Techical Solutions Architect",
+			"startDate" : "March 2008",
+			"endDate" : "Present",
+			"responsibilities" : "Build high quality and highly available web applications using JavaScript, Java, ColdFusion.",
+			"achievements" : "Brought unit testing, continous integration, and development best practices such as frameworks, code to the team."
+		}
+
+	},
+	"speaking" : [ 
+		{ 
+			"title" : "TDD Demystified: Hone Your Skills with Katas",
+			"location" : "The Online ColdFusion Meetup",
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/" 
+		},
+		{ 
+			"title" : "JavaScript Fundamentals for ColdFusion Developers",
+			"location" : "The Online ColdFusion Meetup",
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/32356622/"
+		},
+		{
+			"title" : "JavaScript Fundamentals for ColdFusion Developers",
+			"location" : "CFObjective 2011, Minneapolis MN",
+			"link" : "http://bittersweetryan.github.com/javascript-for-coldfusion-devs/"
+		},
+		{
+			"title" : "The Art of JavaScript: Level Up Your Skills In 60 Minutes",
+			"location" : "NCDevCon 2012, Raleigh NC",
+			"link" : "http://textiles.online.ncsu.edu/online/SilverlightPlayer/Default.aspx?peid=02c7fe6174654f96b78a6194d3dbbe9d1d"
+		}
+	]
+}
