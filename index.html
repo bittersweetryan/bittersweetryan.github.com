@@ -52,75 +52,28 @@
 
 			<section id="frameworks">
 				<h1>Frameworks / Libraries / Data Formats</h1>
-				<ul data-content="skills">
+				<ul data-content="frameworks">
 				
 				</ul>
 			</section>
 
 			<section id="projects">
 				<h1>Projects</h1>
-				<p data-content="projects">
-					<ul>
-						<li>
-							IRIS
-						</li>
-						<li>
-							WARM
-						</li>
-						<li>
-							CARS
-						</li>
-					</ul>
-				</p>
+				<ul data-content="projects">
+				</ul>
 			</section>
 
 			<section id="experience">
 				<h1>Experience</h1>
-				<p data-content="experience">
-					<ul>
-						<li>
-							IDL Solutions
-						</li>
-						<li>
-							Assisted Living Concepts
-						</li>
-						<li>
-							Edstrom Industries
-						</li>
-						<li>
-							Substance Abuse Management
-						</li>
-						<li>
-							Ajilon
-						</li>
-						<li>
-							Netrox
-						</li>
-						<li>
-							IDL Solutions
-						</li>
-					</ul>
-				</p>
+				<ul data-content="experience">
+					
+				</ul>
 			</section>
 
 			<section id="speaking">
 				<h1>Speaking Engagements</h1>
-				<p data-content="speaking">
-					<ul>
-						<li>
-							TDD Deymstified
-						</li>
-						<li>
-							JavaScript Fundmentals for ColdFusion Developers
-						</li>
-						<li>
-							JavaScript Fundmentals for ColdFusion Developers
-						</li>
-						<li>
-							The Art of JavaScript: Level Up Your Skills in 60 Minutes
-						</li>
-					</ul>
-				</p>
+				<ul data-content="speaking">
+				</ul>
 			</section>
 
 		</div>
@@ -128,6 +81,77 @@
 		<script type="text/template" id="skills-template">
 			<li>
 				${skills}
+			</li>
+		</script>
+
+		<script type="text/template" id="frameworks-template">
+			<li>
+				${frameworks}
+			</li>
+		</script>
+
+		<script type="text/template" id="speaking-template">
+			<li>
+				<section>
+					<div>
+						<span class="label">Title:</span>
+						<span class="content">${title}<span>
+					</div>
+					<div>
+						<span class="label">location:</span>
+						<span class="content">${location}<span>
+					</div>
+					<div>
+						<span class="label">Link:</span>
+						<span class="content">${link}<span>
+					</div>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="projects-template">
+			<li>
+				<section>
+					<div>
+						<span class="label">Name:</span>
+						<span class="content">${name}<span>
+					</div>
+					<div>
+						<span class="label">Technologies:</span>
+						<span class="content">${technologies}<span>
+					</div>
+					<div>
+						<span class="label">Description:</span>
+						<span class="content">${description}<span>
+					</div>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="experience-template">
+			<li>
+				<section>
+					<div>
+						<span class="label">Company:</span>
+						<span class="content">${company}<span>
+					</div>
+					<div>
+						<span class="label">Title:</span>
+						<span class="content">${title}<span>
+					</div>
+					<div>
+						<span class="label">Tenure:</span>
+						<span class="content">${startDate} - ${endDate}<span>
+					</div>
+					<div>
+						<span class="label">Responsibilities:</span>
+						<span class="content">${responsibilities}<span>
+					</div>
+					<div>
+						<span class="label">Achievements:</span>
+						<span class="content">${achievements}<span>
+					</div>
+				</section>
 			</li>
 		</script>
 

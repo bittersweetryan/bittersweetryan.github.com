@@ -9,13 +9,31 @@
 		"JSON",
 		"RESTful web services",
 		"ColdFusion",
-		"Groovy/Grails",
+		"Groovy",
 		"PHP",
 		"Java",
 		"TDD"
 	],
-	"experience" : {
-		"IDL Solutions" : {
+	"frameworks" : [
+		"Backbone.js",
+		"jQuery",
+		"Underscore.js",
+		"Twitter Bootstrap",
+		"FW/1",
+		"Grails",
+		"Sass",
+		"JSON"
+	],
+	"projects" : [
+		{
+			"name" : "IRIS",
+			"technologies" : "Backbone.js, Sass, ColdFusion, Java, Hibernate, MS SQL Server",
+			"description" : "IRIS is a project that allows users to view"
+		}
+	],
+	"experience" : [
+		{
+			"company" : "IDL Solutions",
 			"title" : "Techical Solutions Architect",
 			"startDate" : "March 2008",
 			"endDate" : "Present",
@@ -23,7 +41,7 @@
 			"achievements" : "Brought unit testing, continous integration, and development best practices such as frameworks, code to the team."
 		}
 
-	},
+	],
 	"speaking" : [ 
 		{ 
 			"title" : "TDD Demystified: Hone Your Skills with Katas",

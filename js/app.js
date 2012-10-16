@@ -18,7 +18,7 @@ window.app = (  function( window, $, snack ){
 
 				if( ele ) ele.innerHTML = val;
 			}
-			else{
+			else if( snack.isArray( val ) ){
 				var frag = '';
 
 				snack.each( val , function( item, index ){
@@ -28,11 +28,23 @@ window.app = (  function( window, $, snack ){
 					if( template && typeof item === 'string' ){
 						frag = frag + template.innerHTML.replace('${' + key + '}', item );
 					}
+					else if( template && typeof item === 'object' ){
+
+						var cur = template.innerHTML;
+
+						for( var innerKey in item ){
+							cur = cur.replace('${' + innerKey + '}', item[ innerKey ] );
+						}
+
+						frag = frag + cur;
+					}
 				});
 
 				ele.innerHTML = frag;
 			}
+			else if( typeof val === 'object'){
 
+			}
 		}
 	};
 
