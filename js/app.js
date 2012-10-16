@@ -26,6 +26,7 @@ window.app = (  function( window, $, snack ){
 
 					//template found, key is a string
 					if( template && typeof item === 'string' ){
+
 						frag = frag + template.innerHTML.replace('${' + key + '}', item );
 					}
 					else if( template && typeof item === 'object' ){

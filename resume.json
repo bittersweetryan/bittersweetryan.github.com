@@ -1,8 +1,8 @@
 {
 	"name" : "Ryan S. Anklam",
 	"title" : "Web Application Engineer",
-	"objective" : "Make high-quality web applications that challenge me to learn new technologies.",
-	"aboutme" : "I am passionate about writing code, even if I wasn't getting paid to code I'd still be writing code in my freetime. I love to learn new things. I thouroughy enjoy writing and contribuiting to open source software. I strongly believe in TDD and continous integration. I'm also a 7th grade basketball coach and avid mountain biker.",
+	"objective" : "Make high-quality web applications that both challenge me and provide opportunities to learn new technologies.",
+	"aboutme" : "I am passionate about writing code, testing my code, learning, and teaching others. I thoroughly enjoy writing and contributing to open source software. I strongly believe in using TDD and continous integration to provide clients with well written applications. In addtion to being a developer I'm also a 7th grade basketball coach, avid mountain biker, husband and father to 3 wonderful children.",
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
 		"HTML5",
@@ -12,7 +12,9 @@
 		"Groovy",
 		"PHP",
 		"Java",
-		"TDD"
+		"TDD",
+		"GIT",
+		"SVN"
 	],
 	"frameworks" : [
 		"Backbone.js",
@@ -22,46 +24,90 @@
 		"FW/1",
 		"Grails",
 		"Sass",
-		"JSON"
+		"JSON",
+		"MXUnit"
 	],
 	"projects" : [
 		{
 			"name" : "IRIS",
-			"technologies" : "Backbone.js, Sass, ColdFusion, Java, Hibernate, MS SQL Server",
-			"description" : "IRIS is a project that allows users to view"
+			"technologies" : "jQuery, Backbone.js, Sass, Twitter Bootstrap, ColdFusion, Java, Hibernate, MS SQL Server",
+			"description" : "IRIS is a single-page web application used by a state's Commissioner of Insurance office to administer health insurance premiums. This site uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server."
+		},
+		{
+			"name" : "WARM",
+			"technologies" : "jQuery, Sass, ColdFusion, MS SQL Server",
+			"description" : "WARM is an application used by weatherization companies to manage their construction efforts. This includes client intake, job over-site, inventory, and billing."
+		},
+		{
+			"name" : "Envelope.js",
+			"technologies" : "jQuery",
+			"description" : "Envelope.js is an open source jQuery plugin for event driven front-end messaging. Envelope uses custom events to trigger messages that will be displayed by a user."
+		},
+		{
+			"name" : "ColdFusion Koans",
+			"technologies" : "ColdFusion, MXUnit",
+			"description" : "The ColdFusion Koans are a set of unit tests that are aimed at teaching users the ColdFusion programming language while promoting unit testing."
 		}
 	],
 	"experience" : [
 		{
 			"company" : "IDL Solutions",
-			"title" : "Techical Solutions Architect",
+			"link" : "http://www.idl.com",
+			"title" : "Technical Solutions Architect",
 			"startDate" : "March 2008",
 			"endDate" : "Present",
-			"responsibilities" : "Build high quality and highly available web applications using JavaScript, Java, ColdFusion.",
-			"achievements" : "Brought unit testing, continous integration, and development best practices such as frameworks, code to the team."
+			"responsibilities" : "Build high quality and highly available web applications using JavaScript, Java, ColdFusion. Evaluate and educate the development team on new technologies. High-level application design including technologies, frameworks, and coding practices.",
+			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
+		},
+		{
+			"company" : "Assisted Living Concepts",
+			"link" : "www.alcco.com",
+			"title" : "Application Developer",
+			"startDate" : "January 2006",
+			"endDate" : "March 2008",
+			"responsibilities" : "Support and development for the companies in-house tenant management system. Lead the development team for the development the second generation in-house application.",
+			"achievements" : "Lead efforts to re-write procedural legacy application using an object-oriented approach. Introduced source control to the development team."
+		},
+		{
+			"company" : "Edstrom Industries",
+			"link" : "www.edstrom.com",
+			"title" : "Application Developer",
+			"startDate" : "April 2003",
+			"endDate" : "January 2006",
+			"responsibilities" : "Support and development for applications used by the companies employees.",
+			"achievements" : "Wrote an online/offline application that used XML & SOAP that allowed the international sales team to construct sales quotes while offline and submit them while online. The system also used the force.com API to synchronize contacts and leads."
 		}
 
 	],
 	"speaking" : [ 
-		{ 
-			"title" : "TDD Demystified: Hone Your Skills with Katas",
-			"location" : "The Online ColdFusion Meetup",
-			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/" 
-		},
-		{ 
-			"title" : "JavaScript Fundamentals for ColdFusion Developers",
-			"location" : "The Online ColdFusion Meetup",
-			"link" : "http://www.meetup.com/coldfusionmeetup/events/32356622/"
+		{
+			"title" : "The Art of JavaScript: Level Up Your Skills In 60 Minutes",
+			"location" : "NCDevCon 2012, Raleigh NC",
+			"link" : "http://textiles.online.ncsu.edu/online/SilverlightPlayer/Default.aspx?peid=02c7fe6174654f96b78a6194d3dbbe9d1d"
 		},
 		{
 			"title" : "JavaScript Fundamentals for ColdFusion Developers",
 			"location" : "CFObjective 2011, Minneapolis MN",
 			"link" : "http://bittersweetryan.github.com/javascript-for-coldfusion-devs/"
 		},
+		{ 
+			"title" : "JavaScript Fundamentals for ColdFusion Developers",
+			"location" : "The Online ColdFusion Meetup",
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/32356622/"
+		},
+		{ 
+			"title" : "TDD Demystified: Hone Your Skills with Katas",
+			"location" : "The Online ColdFusion Meetup",
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/" 
+		}
+	],
+	"education" : [
 		{
-			"title" : "The Art of JavaScript: Level Up Your Skills In 60 Minutes",
-			"location" : "NCDevCon 2012, Raleigh NC",
-			"link" : "http://textiles.online.ncsu.edu/online/SilverlightPlayer/Default.aspx?peid=02c7fe6174654f96b78a6194d3dbbe9d1d"
+			"school" : "University of Maryland University College",
+			"startDate" : "2010",
+			"endDate" : "Current",
+			"program" : "Computer Science",
+			"achievements" : "4.0 GPA.  Deans list 2010-2011, 2011-2012€"
 		}
 	]
 }

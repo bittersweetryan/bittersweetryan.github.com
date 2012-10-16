@@ -5,7 +5,7 @@
 
 		<link rel="stylesheet" href="css/site.css">
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-		<title>Résumé of Ryan S. Anklam</title>
+		<title>Resumé of Ryan S. Anklam</title>
 		<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 		<![endif]-->
@@ -17,7 +17,8 @@
 				<li><a href="http://blog.bittersweetryan.com" target="_blank">Blog</a></li>
 				<li><a href="http://www.linkedin.com/pub/ryan-anklam/3/ba9/765" target="_blank">LinkedIn</a></li>
 				<li><a href="http://www.twitter.com/bittersweetryan" target="_blank">Twitter</a></li>
-				<li class="last"><a href="https://plus.google.com/u/0/102276762899040799950/posts" target="_blank">Google+</a></li>
+				<li><a href="https://plus.google.com/u/0/102276762899040799950/posts" target="_blank">Google+</a></li>
+				<li class="last"><a href="https://github.com/bittersweetryan/bittersweetryan.github.com" target="_blank">this.source</a></li>
 			</ul>
 		</nav>
 
@@ -76,7 +77,16 @@
 				</ul>
 			</section>
 
+			<section id="education">
+				<h1>Education</h1>
+				<ul data-content="education">
+				</ul>
+			</section>
 		</div>
+
+		<footer>
+			Last updated on: 10-15-2012
+		</footer>
 
 		<script type="text/template" id="skills-template">
 			<li>
@@ -103,7 +113,7 @@
 					</div>
 					<div>
 						<span class="label">Link:</span>
-						<span class="content">${link}<span>
+						<span class="content"><a href="${link}" target="_blank">open</a><span>
 					</div>
 				</section>
 			</li>
@@ -123,6 +133,29 @@
 					<div>
 						<span class="label">Description:</span>
 						<span class="content">${description}<span>
+					</div>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="education-template">
+			<li>
+				<section>
+					<div>
+						<span class="label">School:</span>
+						<span class="content">${school}<span>
+					</div>
+					<div>
+						<span class="label">Program:</span>
+						<span class="content">${program}<span>
+					</div>
+					<div>
+						<span class="label">Dates Attended:</span>
+						<span class="content">${startDate} - ${endDate}<span>
+					</div>
+					<div>
+						<span class="label">Achievements:</span>
+						<span class="content">${achievements}<span>
 					</div>
 				</section>
 			</li>

@@ -13,35 +13,38 @@ $darkgrey: #999;
 	box-shadow:  0px 4px 6px 0px rgba(44, 44, 44, .8);
 }
 
+/* elements */
 body{
 	@include nomargin-nopadding;
 	font-family: 'Source Sans Pro', sans-serif;
-
-	section,div{
-		&.first{
-			margin-top: 55px;
-		}
-
-		h2{
-			line-height: .4em;
-			font-size: 1.1em;
-		}
-	}
 }
 
 a{
 	color: #000;
 }
 
-ul{
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 0px;
+section,div{
+	&.first{
+		margin-top: 55px;
+	}
+
+	h2{
+		line-height: .5em;
+		font-size: 1.1em;
+	}
 }
 
-#content{
-	margin-left:1.2em;
+ul{
+	margin-left:10px;
+	list-style-type: none;
+
+	li{
+		section{
+			margin: 0 0 6px 0;
+		}
+	}
 }
+
 
 nav{
 	width: 100%;
@@ -50,11 +53,14 @@ nav{
 	top: 0px;
 	left: 0px;
 	padding: 10px 0 10px 0;
-
+	z-index: 9999;
 
 	@include bottom-shadow;
 
 	ul{
+		
+		margin: 0 auto;
+		padding: 0px;
 		text-align: center;
 	}
 
@@ -62,6 +68,7 @@ nav{
 		padding: 0 1.1em 0 1.1em;
 		display: inline;
 		border-right: 1px dashed $darkgrey;
+		text-shadow: white 0px 1px 0px;
 
 		&.last { 
 			border-right:0 none; 
@@ -69,11 +76,44 @@ nav{
 	}	
 }
 
-span.right{
-	position: absolute;
-	right: 2em;
+section{
+	h1{
+		margin-bottom: 0px;
+		margin-top: .8em;
+	}
+	p{
+		margin: 5px 0 5px 0;
+		line-height: 1.3em;
+	}
+
+	.label{
+		font-weight: bold;
+		display: inline-block;
+		width: 150px;
+		text-align: right;
+		padding-right:.5em;
+	}
+
+	div{
+		span{
+			line-height:1.5em;
+		}
+	}
 }
 
+span{
+	&.right{
+		position: absolute;
+		right: 2em;
+	}
+}
+
+/* ids */
+#content{
+	margin-left:1.2em;
+}
+
+/* classes */
 .name{
-	font-size: 2em;
+	font-size: 3em;
 }
