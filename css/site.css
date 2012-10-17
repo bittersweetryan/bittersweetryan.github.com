@@ -20,7 +20,7 @@ ul {
   padding-left: 0px;
   list-style-type: none; }
   ul li {
-    line-height: 20px; }
+    line-height: 25px; }
     ul li section {
       margin: 0 0 6px 0; }
 
@@ -54,7 +54,7 @@ section h1 {
   border-bottom: 1px solid #e3e3e3; }
 section p {
   margin: 5px 0 5px 10px;
-  line-height: 20px; }
+  line-height: 25px; }
 section .label {
   font-weight: bold;
   display: inline-block;
@@ -72,7 +72,7 @@ section dt {
 section dd {
   display: block;
   margin-left: 160px;
-  line-height: 20px; }
+  line-height: 25px; }
 
 span.right {
   position: absolute;
