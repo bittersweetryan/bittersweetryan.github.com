@@ -46,6 +46,12 @@ nav {
     nav li.last {
       border-right: 0 none; }
 
+section ul {
+  width: 800px;
+  overflow: hidden; }
+section .double li {
+  float: left;
+  width: 50%; }
 section h1 {
   margin-bottom: 0px;
   padding-bottom: 5px;

@@ -82,6 +82,14 @@ nav{
 }
 
 section{
+	ul{
+		width:800px;
+		overflow: hidden;
+	}
+	.double li{
+		float:left;
+		width: 50%;
+	}
 	h1{
 		margin-bottom: 0px;
 		padding-bottom: 5px;
