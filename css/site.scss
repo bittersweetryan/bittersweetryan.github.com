@@ -1,10 +1,8 @@
-/* variables */
 $lightgrey: #e3e3e3;
 $darkgrey: #999;
 $lineheight: 25px;
 $marginleft: 10px;
 
-/* mixins */
 @mixin nomargin-nopadding {
 	margin: 0px;
 	padding: 0px;
@@ -26,11 +24,13 @@ a{
 	color: #000;
 }
 
-section,div{
+div{
 	&.first{
 		margin-top: 55px;
 	}
+}
 
+section{
 	h2{
 		line-height: .5em;
 		font-size: 1.1em;

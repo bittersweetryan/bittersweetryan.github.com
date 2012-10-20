@@ -3,6 +3,32 @@
 	"title" : "Web Application Engineer",
 	"objective" : "To make high-quality web applications that both challenge me and provide opportunities to learn new technologies.",
 	"aboutme" : "I am passionate about writing code, testing my code, learning, and teaching others. I thoroughly enjoy writing and contributing to open source software. I strongly believe in using TDD and continous integration to provide clients with well written applications. In addtion to being a developer I'm also a 7th grade basketball coach, avid mountain biker, husband and father to 3 wonderful children.",
+	"social" : [
+		{
+			"link" : "https://www.github.com/bittersweetryan",
+			"name" : "GitHub"
+		},
+		{
+			"link" : "http://blog.bittersweetryan.com",
+			"name" : "Blog"
+		},
+		{
+			"link" : "http://www.linkedin.com/pub/ryan-anklam/3/ba9/765",
+			"name" : "LinkedIn"
+		},
+		{
+			"link" : "http://www.twitter.com/bittersweetryan",
+			"name" : "Twitter"
+		},
+		{
+			"link" : "https://plus.google.com/u/0/102276762899040799950/posts",
+			"name" : "Google+"
+		},
+		{
+			"link" : "https://github.com/bittersweetryan/jsonmue",
+			"name" : "this.source"
+		}
+	],
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
 		"HTML5",
