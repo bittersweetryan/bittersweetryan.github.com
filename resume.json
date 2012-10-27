@@ -3,7 +3,7 @@
 	"title" : "Web Application Engineer",
 	"contact" : "ryan.anklam@gmail.com | 414-349-7603",
 	"objective" : "To make high-quality web and mobile applications that both challenge me and provide opportunities to learn new technologies.",
-	"aboutme" : "I am passionate about writing code, testing my code, learning, and teaching others. I thoroughly enjoy writing and contributing to open source software. I strongly believe in using TDD and continous integration to provide clients with well written applications. In addtion to being a developer I'm also a 7th grade basketball coach, avid mountain biker, husband and father to 3 wonderful children.",
+	"aboutme" : "I am passionate about writing code, testing my code, learning, and teaching others. I also enjoy writing and contributing to open source software. I strongly believe in using TDD and continuous integration to provide clients with high quality written applications. I've also spoken about TDD and JavaScript at numerous conferences and meetings.",
 	"social" : [
 		{
 			"link" : "https://www.github.com/bittersweetryan",
@@ -87,7 +87,7 @@
 			"title" : "Technical Solutions Architect",
 			"startDate" : "March 2008",
 			"endDate" : "Present",
-			"responsibilities" : "Build high quality web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.",
+			"responsibilities" : "Build highly scalable, highly available web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.  Meet with clients and discuss the technical requirements and technologies that best fit the projects requirements.",
 			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
 		},
 		{
@@ -124,7 +124,7 @@
 			"startDate" : "August 2000",
 			"endDate" : "December 2002",
 			"responsibilities" : "Developed/Maintained/Supported enterprise programs using Visual Basic.",
-			"achievements" : "Lead team responsiable for technical support and replacemnt of sales team's laptops."
+			"achievements" : "Lead team responsible for technical support and replacement of sales team's laptops."
 		},
 		{
 			"company" : "New Media Studios",
