@@ -77,7 +77,7 @@
 		{
 			"name" : "ColdFusion Koans",
 			"technologies" : "ColdFusion, MXUnit",
-			"description" : "The ColdFusion Koans are a set of unit tests that are aimed at teaching users the ColdFusion programming language while promoting unit testing."
+			"description" : "The ColdFusion Koans is a open source application that is set of unit tests that are aimed at teaching users the ColdFusion programming language while promoting unit testing. In 2012 the Koans project was mentioned by the ColdFusion project manager in the NCDevCon keynote."
 		}
 	],
 	"experience" : [
