@@ -49,6 +49,7 @@
 		"Backbone.js",
 		"jQuery",
 		"Underscore.js",
+		"RequireJS",
 		"Jasmine",
 		"Twitter Bootstrap",
 		"Rails",
