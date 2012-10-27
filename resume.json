@@ -1,6 +1,7 @@
 {
 	"name" : "Ryan S. Anklam",
 	"title" : "Web Application Engineer",
+	"contact" : "ryan.anklam@gmail.com | 414-349-7603",
 	"objective" : "To make high-quality web and mobile applications that both challenge me and provide opportunities to learn new technologies.",
 	"aboutme" : "I am passionate about writing code, testing my code, learning, and teaching others. I thoroughly enjoy writing and contributing to open source software. I strongly believe in using TDD and continous integration to provide clients with well written applications. In addtion to being a developer I'm also a 7th grade basketball coach, avid mountain biker, husband and father to 3 wonderful children.",
 	"social" : [
@@ -31,9 +32,9 @@
 	],
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
+		"ColdFusion",
 		"HTML5",
 		"RESTful web services",
-		"ColdFusion",
 		"Ruby",
 		"Groovy",
 		"SQL",
@@ -41,7 +42,8 @@
 		"Java",
 		"TDD",
 		"GIT",
-		"SVN"
+		"SVN",
+		".NET"
 	],
 	"frameworks" : [
 		"Backbone.js",
@@ -105,8 +107,44 @@
 			"endDate" : "January 2006",
 			"responsibilities" : "Support and development for applications used by the companies employees.",
 			"achievements" : "Wrote an online/offline application that used XML & SOAP that allowed the international sales team to construct sales quotes while offline and submit them while online. The system also used the force.com API to synchronize contacts and leads."
+		},
+		{
+			"company" : "Substance Abuse Management, Inc",
+			"link" : "#",
+			"title" : "Application Developer",
+			"startDate" : "August 2002",
+			"endDate" : "April 2003",
+			"responsibilities" : "Developed/Maintained/Supported enterprise website using ASP/php/SQL Server 2000 ",
+			"achievements" : "Trained development team on usage of development tools including Dreamweaver MX and Eclipse"
+		},
+		{
+			"company" : "Ajilon",
+			"link" : "www.ajilon.com",
+			"title" : "Consultant",
+			"startDate" : "August 2000",
+			"endDate" : "December 2002",
+			"responsibilities" : "Developed/Maintained/Supported enterprise programs using Visual Basic.",
+			"achievements" : "Lead team responsiable for technical support and replacemnt of sales team's laptops."
+		},
+		{
+			"company" : "New Media Studios",
+			"link" : "#",
+			"title" : "Developer",
+			"startDate" : "August 1999",
+			"endDate" : "August 2000",
+			"responsibilities" : "Developed database driven web applications using ColdFusion, JavaScript and HTML.",
+			"achievements" : "Created online ticket purchasing system for Marcus Theaters."
 		}
-
+		,
+		{
+			"company" : "IDL Solutions, Inc.",
+			"link" : "www.idl.com",
+			"title" : "Developer",
+			"startDate" : "August 1997",
+			"endDate" : "August 1999",
+			"responsibilities" : "Developed dynamic web pages using ColdFusion, JavaScript, SQL, and HTML.",
+			"achievements" : "Maintained & wrote code for original Wisconsin Lottery website."
+		}
 	],
 	"speaking" : [ 
 		{
