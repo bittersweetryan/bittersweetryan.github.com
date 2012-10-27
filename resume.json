@@ -63,7 +63,7 @@
 		{
 			"name" : "IRIS",
 			"technologies" : "jQuery, Backbone.js, Sass, Twitter Bootstrap, Jasmine, ColdFusion, Java, Hibernate, MS SQL Server",
-			"description" : "IRIS is a single-page web application used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
+			"description" : "IRIS is used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
 		},
 		{
 			"name" : "WARM",
