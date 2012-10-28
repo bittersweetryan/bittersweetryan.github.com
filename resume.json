@@ -68,7 +68,7 @@
 		{
 			"name" : "WARM",
 			"technologies" : "jQuery, Sass, ColdFusion, MS SQL Server",
-			"description" : "WARM is an application used by Weatherization agencies to manage their construction efforts. This includes client intake, job over-site, scheduling, inventory mangement, and billing."
+			"description" : "WARM is an application used by Weatherization agencies to manage their construction efforts. This includes client intake, job over-site, scheduling, inventory mangement, and billing. Lead international team of five developers."
 		},
 		{
 			"name" : "Envelope.js",
@@ -88,7 +88,7 @@
 			"title" : "Technical Solutions Architect",
 			"startDate" : "March 2008",
 			"endDate" : "Present",
-			"responsibilities" : "Build highly scalable, highly available web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.  Meet with clients and discuss the technical requirements and technologies that best fit the projects requirements.",
+			"responsibilities" : "Build highly scalable, highly available web applications using JavaScript, Java, ColdFusion for our clients. Lead internationa development teams.  I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.  Meet with clients and discuss the technical requirements and technologies that best fit the projects requirements.",
 			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
 		},
 		{
