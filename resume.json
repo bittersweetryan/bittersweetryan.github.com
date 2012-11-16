@@ -51,6 +51,8 @@
 		"Underscore.js",
 		"RequireJS",
 		"Jasmine",
+                "Mocha",
+                "Chai",
 		"Twitter Bootstrap",
 		"Rails",
 		"FW/1",
