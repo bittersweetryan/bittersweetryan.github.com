@@ -32,9 +32,11 @@
 	],
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
-		"ColdFusion",
+		"Grunt",
 		"HTML5",
 		"RESTful web services",
+		"CSS3",
+		"ColdFusion",
 		"Ruby",
 		"Groovy",
 		"SQL",
@@ -51,8 +53,8 @@
 		"Underscore.js",
 		"RequireJS",
 		"Jasmine",
-                "Mocha",
-                "Chai",
+        "Mocha",
+        "Chai",
 		"Twitter Bootstrap",
 		"Rails",
 		"FW/1",
@@ -64,17 +66,17 @@
 	"projects" : [
 		{
 			"name" : "IRIS",
-			"technologies" : "jQuery, Backbone.js, Sass, Twitter Bootstrap, Jasmine, ColdFusion, Java, Hibernate, MS SQL Server",
+			"technologies" : "jQuery, Backbone.js, Sass, HTML5, Twitter Bootstrap, Jasmine, ColdFusion, Java, Hibernate, MS SQL Server",
 			"description" : "IRIS is used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
 		},
 		{
 			"name" : "WARM",
-			"technologies" : "jQuery, Sass, ColdFusion, MS SQL Server",
+			"technologies" : "jQuery, Sass, HTML5, ColdFusion, MS SQL Server",
 			"description" : "WARM is an application used by Weatherization agencies to manage their construction efforts. This includes client intake, job over-site, scheduling, inventory mangement, and billing. Lead international team of five developers."
 		},
 		{
 			"name" : "Envelope.js",
-			"technologies" : "jQuery",
+			"technologies" : "jQuery, HTML5, Grunt.js, Jasmine",
 			"description" : "Envelope.js is an open source jQuery plugin for event driven front-end messaging. Envelope uses custom events to trigger messages that will be displayed by a user."
 		},
 		{
