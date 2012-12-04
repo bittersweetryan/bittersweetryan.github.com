@@ -2,7 +2,7 @@
 	"name" : "Ryan S. Anklam",
 	"title" : "Web Application Engineer",
 	"contact" : "ryan.anklam@gmail.com | 414-349-7603",
-	"objective" : "To make high-quality web and mobile applications that both challenge me and provide opportunities to learn new technologies.",
+	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
 	"aboutme" : "I am passionate about writing code, testing my code, learning, and teaching others. I also enjoy writing and contributing to open source software. I strongly believe in using TDD and continuous integration to provide clients with high quality written applications. I've also spoken about TDD and JavaScript at numerous conferences and meetings.",
 	"social" : [
 		{
@@ -51,6 +51,8 @@
 		"Underscore.js",
 		"RequireJS",
 		"Jasmine",
+                "Mocha",
+                "Chai",
 		"Twitter Bootstrap",
 		"Rails",
 		"FW/1",
@@ -63,12 +65,12 @@
 		{
 			"name" : "IRIS",
 			"technologies" : "jQuery, Backbone.js, Sass, Twitter Bootstrap, Jasmine, ColdFusion, Java, Hibernate, MS SQL Server",
-			"description" : "IRIS is a single-page web application used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
+			"description" : "IRIS is used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
 		},
 		{
 			"name" : "WARM",
 			"technologies" : "jQuery, Sass, ColdFusion, MS SQL Server",
-			"description" : "WARM is an application used by Weatherization agencies to manage their construction efforts. This includes client intake, job over-site, scheduling, inventory mangement, and billing."
+			"description" : "WARM is an application used by Weatherization agencies to manage their construction efforts. This includes client intake, job over-site, scheduling, inventory mangement, and billing. Lead international team of five developers."
 		},
 		{
 			"name" : "Envelope.js",
@@ -88,7 +90,7 @@
 			"title" : "Technical Solutions Architect",
 			"startDate" : "March 2008",
 			"endDate" : "Present",
-			"responsibilities" : "Build highly scalable, highly available web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.  Meet with clients and discuss the technical requirements and technologies that best fit the projects requirements.",
+			"responsibilities" : "Build highly scalable, highly available web applications using JavaScript, Java, ColdFusion for our clients. Lead international development teams.  I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.  Meet with clients and discuss the technical requirements and technologies that best fit the projects requirements.",
 			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
 		},
 		{
