@@ -7,11 +7,19 @@ div.first {
     display: none; }
 
 section ul {
-  width: 75%;
-  overflow: hidden; }
+  width: 90%;
+  overflow: hidden;
+  margin-left: 0; }
 section .double li {
   float: none;
   width: 100%; }
+section .label {
+  text-align: left;
+  display: block;
+  text-overflow: ellipsis; }
+section .content {
+  display: block;
+  margin-left: 25px; }
 
 nav {
   position: relative; }
@@ -20,7 +28,7 @@ nav {
     display: block;
     border-bottom: 1px dashed #999999;
     border-right: none;
-    margin: 0;
+    margin: 0px;
     padding: 5px 0 5px 0; }
     nav ul li.last {
       border-bottom: none; }
