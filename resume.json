@@ -65,6 +65,11 @@
 	],
 	"projects" : [
 		{
+			"name" : "NMConnect",
+			"technologies" : "jQuery, Backbone.js, RequireJS, CSS3, Sass, HTML5, Jasmine",
+			"description" : "For the NMConnect project I helped add structure to the JavaScript by implementing Backbone and RequireJS to thousands of lines of code. I also added unit tests to the codebase using Jasmine and trained the team on JavaScript best practices, Backbone, and unit testing using Jasmine."
+		},
+		{
 			"name" : "IRIS",
 			"technologies" : "jQuery, Backbone.js, Sass, HTML5, Twitter Bootstrap, Jasmine, ColdFusion, Java, Hibernate, MS SQL Server",
 			"description" : "IRIS is used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
@@ -87,11 +92,20 @@
 	],
 	"experience" : [
 		{
+			"company" : "Northwestern Mutual",
+			"link" : "http://www.northwesternmutual.com",
+			"title" : "Front End Engineer",
+			"startDate" : "January 2013",
+			"endDate" : "Present",
+			"responsibilities" : "Implement best practices to JavaScript codebase, develop new functionality and create new layouts, teach advanced Javacript techniques to the team",
+			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
+		},
+		{
 			"company" : "IDL Solutions",
 			"link" : "http://www.idl.com",
 			"title" : "Technical Solutions Architect",
 			"startDate" : "March 2008",
-			"endDate" : "Present",
+			"endDate" : "January 2013",
 			"responsibilities" : "Build highly scalable, highly available web applications using JavaScript, Java, ColdFusion for our clients. Lead international development teams.  I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.  Meet with clients and discuss the technical requirements and technologies that best fit the projects requirements.",
 			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
 		},
