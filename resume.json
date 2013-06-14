@@ -3,7 +3,7 @@
 	"title" : "Front End Engineer",
 	"contact" : "ryan.anklam@gmail.com | 414-349-7603",
 	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
-	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. I also enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
+	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. Co-organizer of MilwaukeeJS.  I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
 	"social" : [
 		{
 			"link" : "https://www.github.com/bittersweetryan",
@@ -168,7 +168,7 @@
 	"speaking" : [ 
 		{
 			"title" : "An Introduction to AMD with RequireJS",
-			"location" : "MilwaukeeJS, March 26, 2013",
+			"location" : "MilwaukeeJS, March 26, 2013 | cf.Objective() 2013, May 23, 2013",
 			"link" : "http://bittersweetryan.github.com/introduction-to-amd"
 		},
 		{
@@ -178,7 +178,7 @@
 		},
 		{
 			"title" : "The Art of JavaScript: Level Up Your Skills In 60 Minutes",
-			"location" : "NCDevCon 2012, Raleigh NC",
+			"location" : "NCDevCon 2012, Raleigh NC | cf.Objective() 2013, May 23, 2013",
 			"link" : "http://textiles.online.ncsu.edu/online/SilverlightPlayer/Default.aspx?peid=02c7fe6174654f96b78a6194d3dbbe9d1d"
 		},
 		{
