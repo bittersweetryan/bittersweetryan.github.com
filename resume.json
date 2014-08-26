@@ -32,21 +32,19 @@
 	],
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
+		"Node.js",
 		"HTML5",
 		"RESTful web services",
 		"CSS3",
-		"ColdFusion",
-		"Ruby",
+		"Groovy",
 		"SQL",
-		"PHP",
 		"Java",
-		"Node.js",
-		"TDD",
-		"GIT",
-		"SVN",
-		".NET"
+		"GIT"
 	],
 	"frameworks" : [
+		"React.js",
+		"RXJS",
+		"Ember.js",
 		"Backbone.js",
 		"jQuery",
 		"Underscore.js",
@@ -64,6 +62,11 @@
 		"JSON"
 	],
 	"projects" : [
+		{
+			"name" : "Shakti",
+			"technologies" : "Node.js, React.js, Mocha",
+			"description" : "Project Shakti is a Node.js appication for serving the UI layer of the Netflix website. I was the first developer to convert legacy Java/Struts pages to the new platform, in additon I helped write some of the core framework, build process, and lead the unit testing efforts."
+		},
 		{
 			"name" : "NMConnect",
 			"technologies" : "jQuery, Backbone.js, RequireJS, CSS3, Sass, HTML5, Jasmine",
@@ -92,11 +95,20 @@
 	],
 	"experience" : [
 		{
+			"company" : "Netflix",
+			"link" : "http://www.netflix.com",
+			"title" : "Senior UI Engineer",
+			"startDate" : "September 2013",
+			"endDate" : "Present",
+			"responsibilities" : "At Netflix I worked on the Growth Team that is responsible for adding new product features, bug fixes, and transitioning Account pages to the new Shakti platform. I also was one of the first engineers to introduce responsive pages to the account section of the website.",
+			"achievements" : "Early adopter of the new Shakti platform, worked on the new Netflix logo and responsive header. Spoke on Netflix technolgoies at conferences.."
+		},
+		{
 			"company" : "Northwestern Mutual",
 			"link" : "http://www.northwesternmutual.com",
 			"title" : "Front End Engineer",
 			"startDate" : "January 2013",
-			"endDate" : "Present",
+			"endDate" : "September 2013",
 			"responsibilities" : "Implement best practices to JavaScript codebase, develop new functionality and create new layouts, teach advanced Javacript techniques to the team",
 			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
 		},
@@ -166,6 +178,26 @@
 		}
 	],
 	"speaking" : [ 
+		{
+			"title" : "Going Node at Netflix",
+			"location" : "ThatConference, Wisconsin Dells, WI",
+			"link" : "http://www.slideshare.net/RyanAnklam/going-node-at-netflix?qid=a000eb62-ede4-4976-8c0a-a2aec0ce250e&v=qf1&b=&from_search=1"
+		},
+		{
+			"title" : "Rethink ASYNC",
+			"location" : "ThatConference, Wisconsin Dells, WI",
+			"link" : "http://www.slideshare.net/RyanAnklam/rethink-async-with-rxjs"
+		},
+		{
+			"title" : "Stop Making Excuses And Start Testing Your JavaScript",
+			"location" : "HTML5 Developer Conference, San Francisco, CA",
+			"link" : "https://www.youtube.com/watch?v=yRMsxyGsez4&feature=youtu.be"
+		},
+		{
+			"title" : "Add More Fun to Your Functional Programming With RXJS",
+			"location" : "Mountain West JavaScript, Salt Lake City, UT",
+			"link" : "https://www.youtube.com/watch?v=8EExNfm0gt4"
+		},
 		{
 			"title" : "An Introduction to AMD with RequireJS",
 			"location" : "MilwaukeeJS, March 26, 2013 | cf.Objective() 2013, May 23, 2013",
