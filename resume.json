@@ -33,7 +33,7 @@
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5, ES6)",
 		"React",
-		"Isomorphic JavaSript",
+		"Isomorphic JavaScript",
 		"JavaScript Unit Testing",
 		"Application Architecture",
 		"Node.js",
@@ -66,7 +66,7 @@
 		{
 			"name" : "Shakti",
 			"technologies" : "Node.js, React.js, Mocha",
-			"description" : "Project Shakti is a Node.js appication for serving the UI layer of the Netflix website utilizing. My role included converting legacy pages into the new application stack, in additon I contributed into the core framework, build process, and lead the unit testing efforts."
+			"description" : "Project Shakti is a Node.js application for serving the UI layer of the Netflix website utilizing. My role included converting legacy pages into the new application stack, in addition I contributed into the core framework, build process, and lead the unit testing efforts."
 		},
 		{
 			"name" : "NMConnect",
@@ -76,12 +76,12 @@
 		{
 			"name" : "IRIS",
 			"technologies" : "jQuery, Backbone.js, Sass, HTML5, Twitter Bootstrap, Jasmine, ColdFusion, Java, Hibernate, MS SQL Server",
-			"description" : "IRIS is used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter boostrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
+			"description" : "IRIS is used by a state's Commissioner of Insurance office to administer health insurance premiums. This application is a single-page website that uses twitter bootstrap and backbone for the front end, which passes JSON data back and forth to the ColdFusion server.  This site is also fully localized for Spanish and English speaking visitors."
 		},
 		{
 			"name" : "WARM",
 			"technologies" : "jQuery, Sass, HTML5, ColdFusion, MS SQL Server",
-			"description" : "WARM is an application used by Weatherization agencies to manage their construction efforts. This includes client intake, job over-site, scheduling, inventory mangement, and billing. Lead international team of five developers."
+			"description" : "WARM is an application used by Weatherization agencies to manage their construction efforts. This includes client intake, job over-site, scheduling, inventory management, and billing. Lead international team of five developers."
 		},
 		{
 			"name" : "Envelope.js",
@@ -102,7 +102,7 @@
 			"startDate" : "September 2013",
 			"endDate" : "Present",
 			"responsibilities" : "At Netflix I work on the Acquisition Web Team.  We are responsible for adding new product features, bug fixes, and transitioning Account pages to the new Shakti platform. I also was one of the first engineers to introduce responsive pages to the account section of the website.",
-			"achievements" : "Early adopter of the new Shakti platform, worked on the new Netflix logo and responsive header. Spoke on Netflix technolgoies at conferences.."
+			"achievements" : "Early adopter of the new Shakti platform, worked on the new Netflix logo and responsive header. Spoke at various conferences Netflix technologies at conferences.."
 		},
 		{
 			"company" : "Northwestern Mutual",
@@ -110,7 +110,7 @@
 			"title" : "Front End Engineer",
 			"startDate" : "January 2013",
 			"endDate" : "September 2013",
-			"responsibilities" : "Implement best practices to JavaScript codebase, develop new functionality and create new layouts, teach advanced Javacript techniques to the team",
+			"responsibilities" : "Implement best practices to JavaScript codebase, develop new functionality and create new layouts, teach advanced JavaScript techniques to the team",
 			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
 		},
 		{
