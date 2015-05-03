@@ -1,16 +1,16 @@
 {
 	"name" : "Ryan S. Anklam",
-	"title" : "Front End Engineer",
+	"title" : "Sr. Front End Engineer",
 	"contact" : "ryan.anklam@gmail.com | 414-349-7603",
-	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
-	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. Co-organizer of MilwaukeeJS.  I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
+	"objective" : "To make high-quality, exciting, applications that people love to use on any device while working with other smart and highly motivated engineers.",
+	"aboutme" : "",
 	"social" : [
 		{
 			"link" : "https://www.github.com/bittersweetryan",
 			"name" : "GitHub"
 		},
 		{
-			"link" : "http://blog.bittersweetryan.com",
+			"link" : "http://blog.ankl.am",
 			"name" : "Blog"
 		},
 		{
@@ -31,7 +31,11 @@
 		}
 	],
 	"skills" : [
-		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
+		"JavaScript (ECMAScript versions 1.5, ES6)",
+		"React",
+		"Isomorphic JavaSript",
+		"JavaScript Unit Testing",
+		"Application Architecture",
 		"Node.js",
 		"HTML5",
 		"Gulp.js",
@@ -51,22 +55,18 @@
 		"LESS",
 		"jQuery",
 		"Underscore.js",
-		"RequireJS",
 		"Jasmine",
 	        "Mocha",
 	        "Chai",
-		"Twitter Bootstrap",
-		"Sinatra",
 		"Express",
 		"Connect",
-		"Sass",
-		"JSON"
+		"Sass"
 	],
 	"projects" : [
 		{
 			"name" : "Shakti",
 			"technologies" : "Node.js, React.js, Mocha",
-			"description" : "Project Shakti is a Node.js appication for serving the UI layer of the Netflix website. I was the first developer to convert legacy Java/Struts pages to the new platform, in additon I helped write some of the core framework, build process, and lead the unit testing efforts."
+			"description" : "Project Shakti is a Node.js appication for serving the UI layer of the Netflix website utilizing. My role included converting legacy pages into the new application stack, in additon I contributed into the core framework, build process, and lead the unit testing efforts."
 		},
 		{
 			"name" : "NMConnect",
@@ -101,7 +101,7 @@
 			"title" : "Senior UI Engineer",
 			"startDate" : "September 2013",
 			"endDate" : "Present",
-			"responsibilities" : "At Netflix I worked on the Growth Team that is responsible for adding new product features, bug fixes, and transitioning Account pages to the new Shakti platform. I also was one of the first engineers to introduce responsive pages to the account section of the website.",
+			"responsibilities" : "At Netflix I work on the Acquisition Web Team.  We are responsible for adding new product features, bug fixes, and transitioning Account pages to the new Shakti platform. I also was one of the first engineers to introduce responsive pages to the account section of the website.",
 			"achievements" : "Early adopter of the new Shakti platform, worked on the new Netflix logo and responsive header. Spoke on Netflix technolgoies at conferences.."
 		},
 		{
