@@ -31,24 +31,23 @@
 		}
 	],
 	"skills" : [
-		"JavaScript (ECMAScript versions 1.5, ES6)",
+		"JavaScript (ECMAScript versions 1.5, ES6 and up)",
 		"React",
-		"Isomorphic JavaScript",
+		"Universal JavaScript",
 		"JavaScript Unit Testing",
 		"Application Architecture",
 		"Node.js",
 		"HTML5",
 		"Gulp.js",
-		"Grunt.js",
 		"RESTful web services",
 		"CSS3",
 		"Groovy",
-		"SQL",
 		"Java",
 		"GIT"
 	],
 	"frameworks" : [
 		"React.js",
+		"TypeScript",
 		"RXJS",
 		"Ember.js",
 		"Backbone.js",
@@ -234,9 +233,9 @@
 		{
 			"school" : "University of Maryland University College",
 			"startDate" : "2010",
-			"endDate" : "Current",
+			"endDate" : "Current - Graduation Fall 2016",
 			"program" : "Computer Science",
-			"achievements" : "3.8 GPA.  Deans list 2010-2011, 2011-2012"
+			"achievements" : "3.79 GPA.  Deans list 2010-2015"
 		}
 	]
 }
