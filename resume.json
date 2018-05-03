@@ -52,7 +52,7 @@
 		{
 			"name" : "Multi-Device Signup",
 			"technologies" : "Vanilla JS, React.js",
-			"description" : "This project involved cordinating with multiple teams and services to allow users to start the Netflix signup process on a TV and finish on using our website, where data entry isn't as clumsy as using a remote control.  This project required a new architecture on consumer electric devices to allow the screen to reflect the current step of the users signup on the website. We tested many variations of this experience to come up with the best experience for our users."
+			"description" : "This project involved working closely with and coordinating with multiple partner teams to allow users to start the Netflix signup process on a consumer electronics device (TV, gaming device, streaming stick, etc.) and finish the process using our website, where data entry is much easier than using a remote control. This project required a new architecture on consumer electric devices that would allow the device to talk to back end services to allow the screen would reflect the current step of the user’s signup on the website. "
 		},
 		{
 			"name" : "Shakti",
