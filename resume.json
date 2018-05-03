@@ -10,20 +10,12 @@
 			"name" : "GitHub"
 		},
 		{
-			"link" : "http://blog.ankl.am",
-			"name" : "Blog"
-		},
-		{
 			"link" : "http://www.linkedin.com/pub/ryan-anklam/3/ba9/765",
 			"name" : "LinkedIn"
 		},
 		{
 			"link" : "http://www.twitter.com/bittersweetryan",
 			"name" : "Twitter"
-		},
-		{
-			"link" : "https://plus.google.com/u/0/102276762899040799950/posts",
-			"name" : "Google+"
 		},
 		{
 			"link" : "https://github.com/bittersweetryan/jsonme",
@@ -33,12 +25,10 @@
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5, ES6 and up)",
 		"React",
-		"Universal JavaScript",
 		"JavaScript Unit Testing",
 		"Application Architecture",
 		"Node.js",
 		"HTML5",
-		"Gulp.js",
 		"RESTful web services",
 		"CSS3",
 		"Groovy",
@@ -49,19 +39,21 @@
 		"React.js",
 		"TypeScript",
 		"RXJS",
-		"Ember.js",
 		"Backbone.js",
 		"LESS",
 		"jQuery",
-		"Underscore.js",
+		"lodash.js",
 		"Jasmine",
-	        "Mocha",
-	        "Chai",
+	    "Mocha",
 		"Express",
-		"Connect",
 		"Sass"
 	],
 	"projects" : [
+		{
+			"name" : "Multi-Device Signup",
+			"technologies" : "Vanilla JS, React.js",
+			"description" : "This project involved cordinating with multiple teams and services to allow users to start the Netflix signup process on a TV and finish on using our website, where data entry isn't as clumsy as using a remote control.  This project required a new architecture on consumer electric devices to allow the screen to reflect the current step of the users signup on the website. We tested many variations of this experience to come up with the best experience for our users."
+		},
 		{
 			"name" : "Shakti",
 			"technologies" : "Node.js, React.js, Mocha",
@@ -177,7 +169,7 @@
 			"achievements" : "Maintained & wrote code for original Wisconsin Lottery website."
 		}
 	],
-	"speaking" : [ 
+	"speaking" : [
 		{
 			"title" : "Going Node at Netflix",
 			"location" : "ThatConference, Wisconsin Dells, WI",
@@ -218,15 +210,15 @@
 			"location" : "CFObjective 2011, Minneapolis MN",
 			"link" : "http://bittersweetryan.github.com/javascript-for-coldfusion-devs/"
 		},
-		{ 
+		{
 			"title" : "JavaScript Fundamentals for ColdFusion Developers",
 			"location" : "The Online ColdFusion Meetup",
 			"link" : "http://www.meetup.com/coldfusionmeetup/events/32356622/"
 		},
-		{ 
+		{
 			"title" : "TDD Demystified: Hone Your Skills with Katas",
 			"location" : "The Online ColdFusion Meetup",
-			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/" 
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/"
 		}
 	],
 	"education" : [
